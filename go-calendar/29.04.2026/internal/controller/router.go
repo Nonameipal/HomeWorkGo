@@ -11,7 +11,7 @@ func (c *Controller) Run() {
 	reader := bufio.NewReader(os.Stdin)
 
 	for {
-		fmt.Println("\n==== МИНИ-КАЛЕНДАРЬ =====")
+		fmt.Println("\n==== МИНИ-1КАЛЕНДАРЬ =====")
 		fmt.Println("1. Прочитать задачи на всю неделю")
 		fmt.Println("2. Прочитать задачи на будни")
 		fmt.Println("3. Прочитать задачи на выходные")
